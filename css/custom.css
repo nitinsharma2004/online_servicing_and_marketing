@@ -1,0 +1,55 @@
+.navbar #myMenue .custom-nav .nav-item a {
+color: white;
+}
+.navbar #myMenue .custom-nav .nav-item a:hover{
+    color: #288dc4;
+    }
+    /* make header image responsive */
+ .back-img{
+   min-height: 120vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-position: center center; */
+   border-radius: 0px;
+   margin-top: 57px;
+    }
+.font-italic{
+font-size: 24px;
+    }
+  
+  .main-head{
+       margin-top: 50px;
+      
+    }
+.image-fluid{
+   height: 90px;
+   border-radius: 56px;
+   width: 90px;
+  }  
+.fi-color{
+  color: rgb(0, 140, 255);
+}
+.fi-color:hover{
+  color: rgba(28, 161, 238, 0.915);
+}
+  a{
+    color: white;
+  }
+  .active{
+    color: #0d0c0c;
+    background-color: #35cddc;
+  }
+  a:hover{
+    color:  #65b7f2;
+  }
+
+
+ @media only screen and (max-width:600px){
+   .back-img{
+         background-position: right right;
+   }
+.myclass{
+ margin-top: 350px;
+  text-align: center;
+ }   
+}
